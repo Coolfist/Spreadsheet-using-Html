@@ -1,0 +1,28 @@
+
+      table {border-spacing:0;
+        width:500px;
+        font-family:sans;
+      }
+      th:hover{
+        background-color:powderblue
+      }
+      th{
+        border-top:1px solid grey;
+        background-color:lightgrey;
+        font-weight:normal;
+      }
+      th, td {border-right:1px solid grey;
+        border-bottom:1px solid grey;
+      
+        width:50px;
+        padding:1px
+        
+      }
+      th:first-child{
+        border-left:1px solid grey;
+      }
+      td:first-child{border-left:1px solid grey;
+      background-color:lightgrey;
+        text-align:center;}
+     td:first-child:hover{background-color:powderblue;}
+    
